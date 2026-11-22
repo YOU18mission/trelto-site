@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client intake — Trelto</title>
+  <meta name="description" content="Trelto client intake form for paid clients.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="canonical" href="https://trelto.com/intake.html">
+  <meta name="theme-color" content="#f3eee4">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="/">Trelto</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/#problem">The problem</a></li>
+          <li><a href="/#how">How it works</a></li>
+          <li><a href="/#offer">Offer</a></li>
+          <li><a href="/sample-audit.html">Sample audit</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a class="btn btn-sm btn-primary" href="/snapshot.html">Free Snapshot</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <main id="main">
+    <header class="page-hero">
+      <div class="wrap-prose">
+        <p class="crumb"><a href="/">Home</a> / Client intake</p>
+        <h1>Client intake</h1>
+        <p class="intro">Thanks for starting with Trelto. This takes about 8 minutes. When you submit, your email app opens with your answers filled in; just press send. Everything happens by email. We will never ask for a password.</p>
+      </div>
+    </header>
+    <section class="section" style="padding-top:0;">
+      <div class="wrap page-grid">
+        <div class="form" style="max-width:44rem;">
+          <form id="intake-form" action="mailto:hello@trelto.com" method="post" enctype="text/plain">
+            <h2 style="margin-top:2.2rem;">1. Your business</h2>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f1">Business name (as customers know it)</label>
+              <input id="f1" name="business" data-label="Business name (as customers know it)" type="text" required placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f2">Legal business name, if different <span class="hint">(optional)</span></label>
+              <input id="f2" name="legal_name" data-label="Legal business name, if different" type="text" placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f3">Your name</label>
+              <input id="f3" name="name" data-label="Your name" type="text" required placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f4">Your role <span class="hint">(owner, office manager…)</span></label>
+              <input id="f4" name="role" data-label="Your role" type="text" placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f5">Best email for Trelto updates</label>
+              <input id="f5" name="email" data-label="Best email for Trelto updates" type="email" required placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f6">Business phone shown to customers</label>
+              <input id="f6" name="phone" data-label="Business phone shown to customers" type="tel" required placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f7">Website <span class="hint">(say if you don’t have one)</span></label>
+              <input id="f7" name="website" data-label="Website" type="text" placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f8">Shop or office address, exactly as it should appear online</label>
+              <input id="f8" name="address" data-label="Shop or office address, exactly as it should appear online" type="text" required placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f9">Ohio HVAC license number <span class="hint">(optional)</span></label>
+              <input id="f9" name="license" data-label="Ohio HVAC license number" type="text" placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f10">Year the business started <span class="hint">(optional)</span></label>
+              <input id="f10" name="since" data-label="Year the business started" type="text" placeholder="">
+            </div></div>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="24/7 emergency service?" data-name="emergency">
+              <legend class="legend-like">24/7 emergency service? <span class="hint">(optional)</span></legend>
+              <div class="checks">
+                <label><input type="radio" name="emergency" value="Yes"> Yes</label>
+                <label><input type="radio" name="emergency" value="No"> No</label>
+                <label><input type="radio" name="emergency" value="Heating season only"> Heating season only</label>
+              </div>
+            </fieldset>
+            <h2 style="margin-top:2.2rem;">2. Services and towns</h2>
+            <p class="form-note">This decides which buyer questions we track for you.</p>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="Services you offer" data-name="services">
+              <legend class="legend-like">Services you offer <span class="hint">(optional)</span></legend>
+              <div class="checks">
+                <label><input type="checkbox" name="services" value="Furnace repair"> Furnace repair</label>
+                <label><input type="checkbox" name="services" value="Furnace replacement"> Furnace replacement</label>
+                <label><input type="checkbox" name="services" value="AC repair"> AC repair</label>
+                <label><input type="checkbox" name="services" value="AC installation"> AC installation</label>
+                <label><input type="checkbox" name="services" value="Heat pumps"> Heat pumps</label>
+                <label><input type="checkbox" name="services" value="Boilers / hydronic"> Boilers / hydronic</label>
+                <label><input type="checkbox" name="services" value="Ductless mini-splits"> Ductless mini-splits</label>
+                <label><input type="checkbox" name="services" value="Indoor air quality"> Indoor air quality</label>
+                <label><input type="checkbox" name="services" value="Water heaters"> Water heaters</label>
+                <label><input type="checkbox" name="services" value="Maintenance plans"> Maintenance plans</label>
+                <label><input type="checkbox" name="services" value="Commercial HVAC"> Commercial HVAC</label>
+              </div>
+            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f11">Your top 3 money jobs</label>
+              <textarea id="f11" name="money_jobs" data-label="Your top 3 money jobs" maxlength="3000" required placeholder="e.g. furnace replacements in Parma, heat pumps in Strongsville…"></textarea>
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f12">Home town</label>
+              <input id="f12" name="town" data-label="Home town" type="text" required placeholder="">
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f13">Towns you want calls from</label>
+              <textarea id="f13" name="towns" data-label="Towns you want calls from" maxlength="3000" required placeholder=""></textarea>
+            </div></div>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="Counties you serve" data-name="counties">
+              <legend class="legend-like">Counties you serve <span class="hint">(optional)</span></legend>
+              <div class="checks">
+                <label><input type="checkbox" name="counties" value="Cuyahoga"> Cuyahoga</label>
+                <label><input type="checkbox" name="counties" value="Summit"> Summit</label>
+                <label><input type="checkbox" name="counties" value="Portage"> Portage</label>
+                <label><input type="checkbox" name="counties" value="Lake"> Lake</label>
+                <label><input type="checkbox" name="counties" value="Geauga"> Geauga</label>
+                <label><input type="checkbox" name="counties" value="Lorain"> Lorain</label>
+                <label><input type="checkbox" name="counties" value="Medina"> Medina</label>
+                <label><input type="checkbox" name="counties" value="Stark"> Stark</label>
+                <label><input type="checkbox" name="counties" value="Mahoning"> Mahoning</label>
+                <label><input type="checkbox" name="counties" value="Trumbull"> Trumbull</label>
+                <label><input type="checkbox" name="counties" value="Wayne"> Wayne</label>
+                <label><input type="checkbox" name="counties" value="Ashtabula"> Ashtabula</label>
+              </div>
+            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f14">Brands you install or are certified for <span class="hint">(optional)</span></label>
+              <input id="f14" name="brands" data-label="Brands you install or are certified for" type="text" placeholder="">
+            </div></div>
+            <h2 style="margin-top:2.2rem;">3. Google Business Profile</h2>
+            <p class="form-note">Please don’t send passwords. Invite us as a Manager, or we’ll send exact copy-and-paste steps.</p>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f15">Link to your Google Business Profile or Maps listing <span class="hint">(optional)</span></label>
+              <input id="f15" name="gbp_link" data-label="Link to your Google Business Profile or Maps listing" type="text" placeholder="">
+            </div></div>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="How should we handle your Google profile?" data-name="gbp_access">
+              <legend class="legend-like">How should we handle your Google profile?</legend>
+              <div class="checks">
+                <label><input type="radio" name="gbp_access" value="I added hello@trelto.com as a Manager" required> I added hello@trelto.com as a Manager</label>
+                <label><input type="radio" name="gbp_access" value="I’ll make the changes myself from your list" required> I’ll make the changes myself from your list</label>
+                <label><input type="radio" name="gbp_access" value="I’m not sure we have one" required> I’m not sure we have one</label>
+              </div>
+            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f16">Your Google review link <span class="hint">(optional)</span></label>
+              <input id="f16" name="review_link" data-label="Your Google review link" type="text" placeholder="">
+            </div></div>
+            <h2 style="margin-top:2.2rem;">4. Website</h2>
+            <p class="form-note">Please don’t send passwords. Pick whatever is easiest for you.</p>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="What is your site built on?" data-name="platform">
+              <legend class="legend-like">What is your site built on? <span class="hint">(optional)</span></legend>
+              <div class="checks">
+                <label><input type="radio" name="platform" value="WordPress"> WordPress</label>
+                <label><input type="radio" name="platform" value="Wix"> Wix</label>
+                <label><input type="radio" name="platform" value="Squarespace"> Squarespace</label>
+                <label><input type="radio" name="platform" value="GoDaddy"> GoDaddy</label>
+                <label><input type="radio" name="platform" value="Agency platform (Scorpion, Duda, etc.)"> Agency platform (Scorpion, Duda, etc.)</label>
+                <label><input type="radio" name="platform" value="No website"> No website</label>
+                <label><input type="radio" name="platform" value="Don’t know"> Don’t know</label>
+              </div>
+            </fieldset>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="How should website changes get made?" data-name="site_access">
+              <legend class="legend-like">How should website changes get made?</legend>
+              <div class="checks">
+                <label><input type="radio" name="site_access" value="I’ll add hello@trelto.com as an editor" required> I’ll add hello@trelto.com as an editor</label>
+                <label><input type="radio" name="site_access" value="My web person will make them (contact below)" required> My web person will make them (contact below)</label>
+                <label><input type="radio" name="site_access" value="I’ll make them myself from your list" required> I’ll make them myself from your list</label>
+                <label><input type="radio" name="site_access" value="No website yet" required> No website yet</label>
+              </div>
+            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f17">Web person or company: name and email <span class="hint">(only if someone else runs your site; we email them, we don’t call)</span></label>
+              <input id="f17" name="web_contact" data-label="Web person or company: name and email" type="text" placeholder="">
+            </div></div>
+            <h2 style="margin-top:2.2rem;">5. Results tracking</h2>
+            <p class="form-note">This is how we show you whether the work pays off. We never estimate numbers you don’t give us.</p>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="How do you track calls and leads today?" data-name="lead_tracking">
+              <legend class="legend-like">How do you track calls and leads today? <span class="hint">(optional)</span></legend>
+              <div class="checks">
+                <label><input type="checkbox" name="lead_tracking" value="ServiceTitan"> ServiceTitan</label>
+                <label><input type="checkbox" name="lead_tracking" value="Housecall Pro"> Housecall Pro</label>
+                <label><input type="checkbox" name="lead_tracking" value="Jobber"> Jobber</label>
+                <label><input type="checkbox" name="lead_tracking" value="CallRail or other call tracking"> CallRail or other call tracking</label>
+                <label><input type="checkbox" name="lead_tracking" value="Google Business Profile calls"> Google Business Profile calls</label>
+                <label><input type="checkbox" name="lead_tracking" value="Phone bill / notebook"> Phone bill / notebook</label>
+                <label><input type="checkbox" name="lead_tracking" value="We don’t track it"> We don’t track it</label>
+              </div>
+            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f18">Roughly how many new calls or leads in a typical month right now? <span class="hint">(optional)</span></label>
+              <input id="f18" name="leads_baseline" data-label="Roughly how many new calls or leads in a typical month right now?" type="text" placeholder="">
+            </div></div>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="Will you send us a monthly calls/leads number to show next to your AI results?" data-name="share_leads">
+              <legend class="legend-like">Will you send us a monthly calls/leads number to show next to your AI results? <span class="hint">(optional)</span></legend>
+              <div class="checks">
+                <label><input type="radio" name="share_leads" value="Yes"> Yes</label>
+                <label><input type="radio" name="share_leads" value="Maybe later"> Maybe later</label>
+                <label><input type="radio" name="share_leads" value="No"> No</label>
+              </div>
+            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f19">Questions customers ask before they book <span class="hint">(optional)</span></label>
+              <textarea id="f19" name="faq" data-label="Questions customers ask before they book" maxlength="3000" placeholder=""></textarea>
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f20">Competitors you run into most <span class="hint">(optional)</span></label>
+              <textarea id="f20" name="competitors" data-label="Competitors you run into most" maxlength="3000" placeholder=""></textarea>
+            </div></div>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f21">Anything we should not say or change? <span class="hint">(optional)</span></label>
+              <textarea id="f21" name="dont" data-label="Anything we should not say or change?" maxlength="3000" placeholder=""></textarea>
+            </div></div>
+            <h2 style="margin-top:2.2rem;">6. Confirm</h2>
+            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="Agreement" data-name="agree">
+              <div class="checks"><label><input type="checkbox" name="agree" value="Yes" required> I’ve read the <a href="/terms.html">Trelto terms</a>, I’m authorized to have Trelto work on this business, and the information above is accurate.</label></div>
+            </fieldset>
+            <p class="form-note">Next, we’ll email you the 10 buyer questions and the AI engines we’ll measure. Your 60-day guarantee baseline uses exactly that set.</p>
+            <div class="hp" aria-hidden="true">
+              <label for="company_website_confirm">Leave blank</label>
+              <input id="company_website_confirm" name="company_website_confirm" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Email my intake to Trelto</button>
+              <p class="form-note">Prefer to just reply? Email the same answers to <a href="mailto:hello@trelto.com">hello@trelto.com</a>. See the <a href="/privacy.html">privacy policy</a>.</p>
+            </div>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            <div id="intake-copy" hidden style="margin-top:1rem;">
+              <label for="intake-text">If your email app cut anything off, copy this and email it to hello@trelto.com:</label>
+              <textarea id="intake-text" readonly rows="10"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="wordmark" href="/">Trelto</a>
+          <p>A service of Geyer Digital Support LLC (d/b/a Trelto).</p>
+          <address>9 Kingston Drive<br>Aurora, OH 44202</address>
+        </div>
+        <div>
+          <h2>Pages</h2>
+          <ul>
+            <li><a href="/snapshot.html">Free AI Snapshot</a></li>
+            <li><a href="/sample-audit.html">Sample audit</a></li>
+            <li><a href="/privacy.html">Privacy</a></li>
+            <li><a href="/terms.html">Terms</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="mailto:hello@trelto.com">hello@trelto.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="legal-line">© 2026 Geyer Digital Support LLC.</p>
+    </div>
+  </footer>
+  <script src="/js/main.js" defer></script>
+  <script src="/js/main.js" defer></script>
+  <script src="/js/intake.js" defer></script>
+</body>
+</html>
