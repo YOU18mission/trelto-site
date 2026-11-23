@@ -18,7 +18,7 @@ Before work starts, the client and Trelto agree on 6 Google and Google Maps sear
 ## Pricing
 - Free visibility check: emailed within 48 hours of a complete request.
 - Founding Sprint: 60-day local SEO and AI visibility sprint for up to three founding clients, $297 paid at signup, refunded in full if the day-60 result is not a PASS as defined in the terms.
-- Care plan: $297 per month, month-to-month, monthly re-measurement and reporting.
+- Care plan: $397 per month, starting after the 60-day sprint (day 61), month-to-month, cancel anytime by email before the next renewal. Includes a monthly re-measure of the same Maps keywords and AI prompts with a 1-page scorecard, Google Business Profile upkeep, review monitoring and owner nudges, one new or refreshed town or service page a month, and fixes when something breaks. The founding $297 covers the full 60-day sprint with no second bill.
 
 ## Pages
 - [Home](https://trelto.com/): services, process, pricing, FAQ
