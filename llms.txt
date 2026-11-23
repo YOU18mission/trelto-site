@@ -1,0 +1,27 @@
+# Trelto
+
+> Trelto provides search engine optimization (SEO) and AI search optimization (also called answer engine optimization, AEO) for local service companies such as HVAC, plumbing, electrical, roofing, home services, med spas, clinics, and gyms. The goal is more calls, form leads, and booked jobs from Google Search, Google Maps, Google AI Overviews and AI Mode, Gemini, ChatGPT, and Perplexity.
+
+Trelto is a service of Geyer Digital Support LLC. Contact: hello@trelto.com. Work is done by email; no sales call is required.
+
+## Services
+- Google Business Profile and Google Maps optimization
+- Local SEO for existing websites: service and city pages, titles, on-page fixes
+- AI search optimization for Google AI Overviews, AI Mode, Gemini, ChatGPT, and Perplexity
+- Schema markup (LocalBusiness, FAQ) and crawler-access checks
+- Review-request system using real customers only (Trelto never buys, writes, or filters reviews)
+- Directory and listings cleanup
+
+## How results are measured
+Before work starts, the client and Trelto agree on 6 Google and Google Maps searches and 10 buyer questions. Each AI question is run 3 times on the same tools on day 0, day 30, and day 60, and the client receives the dated raw results. Trelto does not promise a #1 ranking or a number of leads.
+
+## Pricing
+- Free visibility check: emailed within 48 hours of a complete request.
+- Founding Sprint: 60-day local SEO and AI visibility sprint for up to three founding clients, $297 paid at signup, refunded in full if the day-60 result is not a PASS as defined in the terms.
+- Care plan: $297 per month, month-to-month, monthly re-measurement and reporting.
+
+## Pages
+- [Home](https://trelto.com/): services, process, pricing, FAQ
+- [Free visibility check](https://trelto.com/check.html): request form
+- [Terms](https://trelto.com/terms.html): full offer and day-60 guarantee rules
+- [Privacy](https://trelto.com/privacy.html)
