@@ -78,8 +78,8 @@
               <input id="f8" name="address" data-label="Shop or office address, exactly as it should appear online" type="text" required placeholder="">
             </div></div>
             <div class="form-row" style="margin-top:0.95rem;"><div>
-              <label for="f9">Ohio HVAC license number <span class="hint">(optional)</span></label>
-              <input id="f9" name="license" data-label="Ohio HVAC license number" type="text" placeholder="">
+              <label for="f9">State contractor license number <span class="hint">(if your trade requires one)</span></label>
+              <input id="f9" name="license" data-label="State contractor license number" type="text" placeholder="">
             </div></div>
             <div class="form-row" style="margin-top:0.95rem;"><div>
               <label for="f10">Year the business started <span class="hint">(optional)</span></label>
@@ -123,23 +123,10 @@
               <label for="f13">Towns you want calls from</label>
               <textarea id="f13" name="towns" data-label="Towns you want calls from" maxlength="3000" required placeholder=""></textarea>
             </div></div>
-            <fieldset style="border:0;margin:1.1rem 0 0;padding:0;" data-label="Counties you serve" data-name="counties">
-              <legend class="legend-like">Counties you serve <span class="hint">(optional)</span></legend>
-              <div class="checks">
-                <label><input type="checkbox" name="counties" value="Cuyahoga"> Cuyahoga</label>
-                <label><input type="checkbox" name="counties" value="Summit"> Summit</label>
-                <label><input type="checkbox" name="counties" value="Portage"> Portage</label>
-                <label><input type="checkbox" name="counties" value="Lake"> Lake</label>
-                <label><input type="checkbox" name="counties" value="Geauga"> Geauga</label>
-                <label><input type="checkbox" name="counties" value="Lorain"> Lorain</label>
-                <label><input type="checkbox" name="counties" value="Medina"> Medina</label>
-                <label><input type="checkbox" name="counties" value="Stark"> Stark</label>
-                <label><input type="checkbox" name="counties" value="Mahoning"> Mahoning</label>
-                <label><input type="checkbox" name="counties" value="Trumbull"> Trumbull</label>
-                <label><input type="checkbox" name="counties" value="Wayne"> Wayne</label>
-                <label><input type="checkbox" name="counties" value="Ashtabula"> Ashtabula</label>
-              </div>
-            </fieldset>
+            <div class="form-row" style="margin-top:0.95rem;"><div>
+              <label for="f13b">Service area <span class="hint">(cities or counties you serve)</span></label>
+              <textarea id="f13b" name="service_area" data-label="Service area (cities or counties you serve)" maxlength="3000" placeholder=""></textarea>
+            </div></div>
             <div class="form-row" style="margin-top:0.95rem;"><div>
               <label for="f14">Brands you install or are certified for <span class="hint">(optional)</span></label>
               <input id="f14" name="brands" data-label="Brands you install or are certified for" type="text" placeholder="">
